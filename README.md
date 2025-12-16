@@ -70,5 +70,10 @@ Based on the analysis, the following strategies are proposed to optimise operati
 * Develop a machine learning model to predict fare amounts or trip duration.
 * Perform A/B testing on pricing strategies.
 
+## 👤 Author
+* **Parshant Kumar** -
+* **GitHub**: [@Parshantk90](https://github.com/Parshantk90))
+* **LinkedIn:** [@ParshantK90](https://www.linkedin.com/in/parshantk90/)
+
 ---
 *Disclaimer: This analysis is based on a sampled dataset from NYC TLC 2023 records.*
