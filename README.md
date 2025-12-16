@@ -30,17 +30,17 @@ The dataset used consists of **2023 Yellow Taxi Trip Records** provided by the N
 
 ### 2. Data Cleaning
 * **Handling Missing Values:**
-    * [cite_start]`passenger_count`: Nulls replaced with 1 (assumption: at least one passenger per trip)[cite: 180].
-    * [cite_start]`RatecodeID`: Nulls replaced with Standard Rate (1)[cite: 183].
-    * [cite_start]`congestion_surcharge`: Imputed using the median value[cite: 187].
-* [cite_start]**Feature Engineering:** Combined duplicate airport fee columns into a single consolidated column[cite: 170, 171].
+    * `passenger_count`: Nulls replaced with 1 (assumption: at least one passenger per trip)[cite: 180].
+    * `RatecodeID`: Nulls replaced with Standard Rate (1)[cite: 183].
+    * `congestion_surcharge`: Imputed using the median value[cite: 187].
+* **Feature Engineering:** Combined duplicate airport fee columns into a single consolidated column[cite: 170, 171].
 * **Outlier Removal:**
-    * [cite_start]Removed invalid trips with `payment_type = 0`[cite: 193].
-    * [cite_start]Filtered unrealistic trip distances (e.g., > 250 miles or 0 miles with nonzero fare)[cite: 198, 199].
+    * Removed invalid trips with `payment_type = 0`[cite: 193].
+    * Filtered unrealistic trip distances (e.g., > 250 miles or 0 miles with nonzero fare)[cite: 198, 199].
 
 ### 3. Exploratory Data Analysis (EDA)
 * **Temporal Trends:** Analyzed pickup demand by hour, day of the week, and month.
-    * [cite_start]*Insight:* Demand peaks in the early evening and mid-week (Wed-Thu), with a drop on Sundays[cite: 27, 28].
+    * *Insight:* Demand peaks in the early evening and mid-week (Wed-Thu), with a drop on Sundays[cite: 27, 28].
 * **Revenue Analysis:** Examined monthly revenue trends and fare distributions.
 * **Geospatial Patterns:** Investigated pickup/drop-off zones (using `PULocationID` and `DOLocationID`).
 
