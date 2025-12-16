@@ -71,9 +71,13 @@ Based on the analysis, the following strategies are proposed to optimise operati
 * Perform A/B testing on pricing strategies.
 
 ## 👤 Author
-* **Parshant Kumar** -
-* **GitHub**: [@Parshantk90](https://github.com/Parshantk90))
-* **LinkedIn:** [@ParshantK90](https://www.linkedin.com/in/parshantk90/)
+
+**Parshant Kumar**
+<br>
+*Data & Business Analytics Professional*
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Parshantk90)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/parshantk90/)
 
 ---
 *Disclaimer: This analysis is based on a sampled dataset from NYC TLC 2023 records.*
