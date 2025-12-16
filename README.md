@@ -52,6 +52,8 @@ Based on the analysis, the following strategies are proposed to optimise operati
 3.  **Shared Ride Incentives:** Promote carpooling to improve fleet efficiency and reduce passenger costs.
 4.  **Smarter Surcharges:** Apply peak surcharges transparently to maintain customer trust.
 
+[📄 Click here to view the detailed Analysis Report](Analysis-Report.pdf)
+
 ## 🚀 How to Run
 1.  Clone this repository.
 2.  Install the required libraries:
