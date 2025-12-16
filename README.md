@@ -20,13 +20,13 @@ The analysis follows a structured approach ranging from data cleaning and sampli
 ## 📂 Dataset
 The dataset used consists of **2023 Yellow Taxi Trip Records** provided by the NYC Taxi and Limousine Commission (TLC).
 * **Source Format:** Parquet files (monthly).
-* [cite_start]**Sampling Strategy:** Due to the large volume of data, a **5% random sample** was extracted from each month to create a representative dataset of approximately **1.9 million records**[cite: 160, 161].
+* **Sampling Strategy:** Due to the large volume of data, a **5% random sample** was extracted from each month to create a representative dataset of approximately **1.9 million records**.
 
 ## ⚙️ Methodology
 
 ### 1. Data Preparation & Loading
 * Loaded monthly parquet files.
-* [cite_start]Implemented a sampling method extracting 5% of data per month to ensure computational feasibility while maintaining statistical significance[cite: 160].
+* Implemented a sampling method extracting 5% of data per month to ensure computational feasibility while maintaining statistical significance.
 
 ### 2. Data Cleaning
 * **Handling Missing Values:**
